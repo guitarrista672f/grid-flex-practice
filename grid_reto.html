@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Estilos -->
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+
+
+            /* Usando Flex para alinear contenedor principal */
+            background: gray;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            
+           
+            
+           
+        }
+
+
+
+        .container{
+           /* Usando grid para distribuir elementos en contenedor*/
+            display: grid;
+            grid-template-columns: 300px 300px;
+            grid-template-rows: 50px 50px  50px 50px;
+            gap: 10px;
+            justify-content:space-evenly;          
+            padding: 15px;
+            background-color:rgb(43, 44, 43) ;
+            border: brown 5px solid;
+            height: auto;
+            width: 50%;
+            
+
+
+        }
+
+
+        /* Usando Flex para ajustar elementos */
+
+        .container>div{
+            background-color: rgb(36, 37, 38);
+            /* height: 45px; */
+            color:aliceblue;
+            display:flex;      
+            border: 3px solid black;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            justify-content:flex-start;           
+            padding: 1rem;          
+            
+          
+        }
+
+       .container>div>div{
+        margin-left: 1rem;
+       }
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRid SCC Reto</title>
+</head>
+
+
+
+
+<body>
+    <div>
+        <h1>Practica usando Grid  y Flex</h1>
+    </div>
+
+
+    <div class="container">
+
+        <div> 
+            <div><img src="./lupa.svg" alt="lupa"> </div>
+            <div>grid css</div>
+        </div>
+
+        <div> 
+            <div><img src="./lupa.svg" alt="lupa"> </div>
+            <div>grid drama</div>
+        </div>
+
+        <div> 
+            <div><img src="./lupa.svg" alt="lupa"> </div>
+            <div>grid meaning</div>
+        </div>
+
+        <div> 
+            <div><img src="./lupa.svg" alt="lupa"> </div>
+            <div>grid adidas</div>
+        </div>
+
+        <div> 
+            <div><img src="./lupa.svg" alt="lupa"> </div>
+            <div>moov</div>
+        </div>
+
+        <div> 
+            <div><img src="./lupa.svg" alt="lupa"> </div>
+            <div>grid argentina</div>
+        </div>
+
+        <div> 
+            <div><img src="./lupa.svg" alt="lupa"> </div>
+            <div>grid instagram</div>
+        </div>
+
+        <div> 
+            <div><img src="./lupa.svg" alt="lupa"> </div>
+            <div>grid zapatillas</div>
+        </div>
+
+    </div>
+</body>
+
+
+
+
+</html>
